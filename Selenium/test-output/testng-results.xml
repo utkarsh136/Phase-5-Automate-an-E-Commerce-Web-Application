@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T10:10:33 IST" name="Default suite" finished-at="2022-10-12T10:12:14 IST" duration-ms="100342">
+    <groups>
+      <group name="Chrome">
+        <method signature="Automation.LaunchChrome()[pri:0, instance:TestNG.Automation@53976f5c]" name="LaunchChrome" class="TestNG.Automation"/>
+        <method signature="Automation.f()[pri:0, instance:TestNG.Automation@53976f5c]" name="f" class="TestNG.Automation"/>
+      </group> <!-- Chrome -->
+      <group name="Firefox">
+        <method signature="Automation.LaunchFirefox()[pri:0, instance:TestNG.Automation@53976f5c]" name="LaunchFirefox" class="TestNG.Automation"/>
+        <method signature="Automation.firefox()[pri:0, instance:TestNG.Automation@53976f5c]" name="firefox" class="TestNG.Automation"/>
+      </group> <!-- Firefox -->
+    </groups>
+    <test started-at="2022-10-12T10:10:33 IST" name="Default test" finished-at="2022-10-12T10:12:14 IST" duration-ms="100342">
+      <class name="TestNG.Automation">
+        <test-method signature="LaunchChrome()[pri:0, instance:TestNG.Automation@53976f5c]" started-at="2022-10-12T10:10:33 IST" name="LaunchChrome" finished-at="2022-10-12T10:10:35 IST" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method signature="LaunchFirefox()[pri:0, instance:TestNG.Automation@53976f5c]" started-at="2022-10-12T10:10:36 IST" name="LaunchFirefox" finished-at="2022-10-12T10:10:40 IST" duration-ms="4008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchFirefox -->
+        <test-method signature="f()[pri:0, instance:TestNG.Automation@53976f5c]" started-at="2022-10-12T10:10:40 IST" name="f" finished-at="2022-10-12T10:11:10 IST" depends-on-methods="TestNG.Automation.LaunchChrome" duration-ms="30329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="firefox()[pri:0, instance:TestNG.Automation@53976f5c]" started-at="2022-10-12T10:11:10 IST" name="firefox" finished-at="2022-10-12T10:12:14 IST" depends-on-methods="TestNG.Automation.LaunchFirefox" duration-ms="63909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefox -->
+      </class> <!-- TestNG.Automation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
